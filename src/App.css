@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  border: 1px solid black;
+  margin: 50px 20px;
+  padding: 25px 15px;
+}
+.lisst{
+  overflow-wrap: break-word ;
+  cursor: pointer;
+}
+li{
+  overflow-wrap:break-word ;
+}
+.addes{
+  color: #cf6e47;
+
+text-shadow: 16px 22px 11px rgba(168, 41, 32, 0.8);
 }
